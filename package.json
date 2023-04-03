@@ -1,0 +1,25 @@
+{
+  "name": "mern-social-media-app",
+  "version": "1.0.0",
+  "description": "This is a social media app built using the MERN (MongoDB, Express, React, Node.js) stack. It allows users to create profiles, post messages, comment on posts, and connect with other users.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamarygillespie4/mern-social-media-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamarygillespie4/mern-social-media-app/issues"
+  },
+  "homepage": "https://github.com/kamarygillespie4/mern-social-media-app#readme",
+  "dependencies": {
+    "apollo-server": "^3.12.0",
+    "graphql": "^16.6.0",
+    "mongoose": "^7.0.3"
+  }
+}
