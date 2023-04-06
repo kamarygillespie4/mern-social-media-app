@@ -4,7 +4,8 @@
   "description": "This is a social media app built using the MERN (MongoDB, Express, React, Node.js) stack. It allows users to create profiles, post messages, comment on posts, and connect with other users.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
     "apollo-server": "^3.12.0",
     "graphql": "^16.6.0",
     "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
